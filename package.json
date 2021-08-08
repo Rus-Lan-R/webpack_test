@@ -1,0 +1,30 @@
+{
+  "name": "webpack_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --config webpack.config.js",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rus-Lan-R/webpack_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rus-Lan-R/webpack_test/issues"
+  },
+  "homepage": "https://github.com/Rus-Lan-R/webpack_test#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "workbox-webpack-plugin": "^6.2.2"
+  },
+  "dependencies": {}
+}
